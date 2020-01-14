@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Twitter</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="main-header">
+    <div class="content">
+      <nav>
+        <ul>
+        <!--no flexbox, qnd dentro de uma li tem uma img e um texto,
+        eles são tratados como elementos diferentes, permitindo muita
+      flexibilidade! como o alinhamento do texto e da imagem-->
+          <li><img src="/images/Header/home.svg" alt="Home"> Home</li>
+          <li><img src="/images/Header/notification.svg" alt="Notifications"> Notifications</li>
+          <li><img src="/images/Header/message.svg" alt="Messages"> Messages</li>
+        </ul>
+      </nav>
+      <img src="/images/Header/logo.svg" alt="Logo Twitter">
+      <div class="side">
+        <input type="text" placeholder="Search on Twitter">
+        <img src="/images/Header/avatar.png" alt="">
+        <button>Tweet</button>
+      </div>
+    </div>
+  </header>
+
+  <!--Banner-->
+  <div class="banner">
+    <h1>Twitter do Mateus</h1>
+  </div>
+
+  <!--Barra superior-->
+  <div class="bar">
+    <div class="content">
+      <ul>
+        <li class="active">
+          <span>Tweets</span>
+          <strong>123</strong>
+        </li>
+        <li>
+          <span>Followings</span>
+          <strong>80</strong>
+        </li>
+        <li>
+          <span>Followers</span>
+          <strong>4328</strong>
+        </li>
+        <li>
+          <span>Favorites</span>
+          <strong>43</strong>
+        </li>
+      </ul>
+  
+      <div class="actions">
+        <button>Follow</button>
+        <img src="images/Barra Superior/more.svg" alt="More">
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper-content content">
+    <aside class="profile">
+      <img class="avatar" src="images/Header/avatar.png" alt="Mateus Ribeiro">
+      <h1>Mateus Ribeiro</h1>
+      <span>@matuga</span>
+      <p>O cara mais bonitão do universo</p>
+
+      <ul class="list">
+        <li><img src="images/Profile/place.svg" alt="Place">Jundyork</li>
+        <li><img src="images/Profile/url.svg" alt="URL">mateusribeiro.com.br</li>
+        <li><img src="images/Profile/joined.svg" alt="Joined">Joined Today</li>
+        <li><img src="images/Profile/born.svg" alt="Born">Born the 16th of May 1997</li>
+      </ul>
+
+      <div class="widget followers">
+        <strong><img src="images//Profile/followers.svg" alt="Followers"> 73 followers that you know</strong>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div class="widget images">
+        <strong><img src="images//Profile/images.svg" alt="Images">266 photos and videos</strong>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </aside>
+    <section class="timeline">
+      <nav>
+        <a href="" class="active">Tweets</a>
+        <a href="">Tweets and replies</a>
+        <a href="">Medias</a>
+      </nav>
+
+      <ul class="tweets">
+        <li>
+          <img src="images/Profile/avatarsapo.jpg" alt="Avatar">
+          <div class="info">
+            <strong>Yago Khairalla <span>@bomberman</span></strong>
+            <p>Testando conteúdo do post</p>
+            <div class="actions">
+              <a href=""><img src="images/timeline/comments.svg" alt="Comments"> 3</a>
+              <a href=""><img src="images/timeline/retweet.svg" alt="Retweets"> 0</a>
+              <a href=""><img src="images/timeline/like.svg" alt="Likes"> 5</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="images/Profile/avatarsapo.jpg" alt="Avatar">
+          <div class="info">
+            <strong>Yago Khairalla <span>@bomberman</span></strong>
+            <p>Testando conteúdo do post</p>
+            <div class="actions">
+              <a href=""><img src="images/timeline/comments.svg" alt="Comments"> 3</a>
+              <a href=""><img src="images/timeline/retweet.svg" alt="Retweets"> 0</a>
+              <a href=""><img src="images/timeline/like.svg" alt="Likes"> 5</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="images/Profile/avatarsapo.jpg" alt="Avatar">
+          <div class="info">
+            <strong>Yago Khairalla <span>@bomberman</span></strong>
+            <p>Testando conteúdo do post</p>
+            <div class="actions">
+              <a href=""><img src="images/timeline/comments.svg" alt="Comments"> 3</a>
+              <a href=""><img src="images/timeline/retweet.svg" alt="Retweets"> 0</a>
+              <a href=""><img src="images/timeline/like.svg" alt="Likes"> 5</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="images/Profile/avatarsapo.jpg" alt="Avatar">
+          <div class="info">
+            <strong>Yago Khairalla <span>@bomberman</span></strong>
+            <p>Testando conteúdo do post</p>
+            <div class="actions">
+              <a href=""><img src="images/timeline/comments.svg" alt="Comments"> 3</a>
+              <a href=""><img src="images/timeline/retweet.svg" alt="Retweets"> 0</a>
+              <a href=""><img src="images/timeline/like.svg" alt="Likes"> 5</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="images/Profile/avatarsapo.jpg" alt="Avatar">
+          <div class="info">
+            <strong>Yago Khairalla <span>@bomberman</span></strong>
+            <p>Testando conteúdo do post</p>
+            <div class="actions">
+              <a href=""><img src="images/timeline/comments.svg" alt="Comments"> 3</a>
+              <a href=""><img src="images/timeline/retweet.svg" alt="Retweets"> 0</a>
+              <a href=""><img src="images/timeline/like.svg" alt="Likes"> 5</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="images/Profile/avatarsapo.jpg" alt="Avatar">
+          <div class="info">
+            <strong>Yago Khairalla <span>@bomberman</span></strong>
+            <p>Testando conteúdo do post</p>
+            <div class="actions">
+              <a href=""><img src="images/timeline/comments.svg" alt="Comments"> 3</a>
+              <a href=""><img src="images/timeline/retweet.svg" alt="Retweets"> 0</a>
+              <a href=""><img src="images/timeline/like.svg" alt="Likes"> 5</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="images/Profile/avatarsapo.jpg" alt="Avatar">
+          <div class="info">
+            <strong>Yago Khairalla <span>@bomberman</span></strong>
+            <p>Testando conteúdo do post</p>
+            <div class="actions">
+              <a href=""><img src="images/timeline/comments.svg" alt="Comments"> 3</a>
+              <a href=""><img src="images/timeline/retweet.svg" alt="Retweets"> 0</a>
+              <a href=""><img src="images/timeline/like.svg" alt="Likes"> 5</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="images/Profile/avatarsapo.jpg" alt="Avatar">
+          <div class="info">
+            <strong>Yago Khairalla <span>@bomberman</span></strong>
+            <p>Testando conteúdo do post</p>
+            <div class="actions">
+              <a href=""><img src="images/timeline/comments.svg" alt="Comments"> 3</a>
+              <a href=""><img src="images/timeline/retweet.svg" alt="Retweets"> 0</a>
+              <a href=""><img src="images/timeline/like.svg" alt="Likes"> 5</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="images/Profile/avatarsapo.jpg" alt="Avatar">
+          <div class="info">
+            <strong>Yago Khairalla <span>@bomberman</span></strong>
+            <p>Testando conteúdo do post</p>
+            <div class="actions">
+              <a href=""><img src="images/timeline/comments.svg" alt="Comments"> 3</a>
+              <a href=""><img src="images/timeline/retweet.svg" alt="Retweets"> 0</a>
+              <a href=""><img src="images/timeline/like.svg" alt="Likes"> 5</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="images/Profile/avatarsapo.jpg" alt="Avatar">
+          <div class="info">
+            <strong>Yago Khairalla <span>@bomberman</span></strong>
+            <p>Testando conteúdo do post</p>
+            <div class="actions">
+              <a href=""><img src="images/timeline/comments.svg" alt="Comments"> 3</a>
+              <a href=""><img src="images/timeline/retweet.svg" alt="Retweets"> 0</a>
+              <a href=""><img src="images/timeline/like.svg" alt="Likes"> 5</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <aside class="widgets">
+      <div class="widget follow">
+        <div class="title">
+          <strong>Who to follow</strong>
+          <a href="">Refresh</a>
+          <a href="">View all</a>
+        </div>
+
+        <ul>
+          <li>
+            <div class="profile">
+              <img src="images/widgets/diego.JPG" alt="avatar">
+              <div class="info">
+                <strong>Spade <span>@spade_be</span></strong>
+                <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+          <li>
+              <div class="profile">
+                <img src="images/widgets/diego.JPG" alt="avatar">
+                <div class="info">
+                  <strong>Spade <span>@spade_be</span></strong>
+                  <button>Follow</button>
+                </div>
+              </div>
+              <a href="">x</a>
+            </li>
+            <li>
+                <div class="profile">
+                  <img src="images/widgets/diego.JPG" alt="avatar">
+                  <div class="info">
+                    <strong>Spade <span>@spade_be</span></strong>
+                    <button>Follow</button>
+                  </div>
+                </div>
+                <a href="">x</a>
+              </li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>
